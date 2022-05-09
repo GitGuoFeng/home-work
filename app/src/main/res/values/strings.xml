@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="string1">设置</string>
+    <string name="string2">WLAN</string>
+    <string name="string3">蓝牙</string>
+    <string name="string4">移动网络</string>
+    <string name="string5">超级终端</string>
+
+    <string name="string6">桌面和壁纸</string>
+    <string name="string7">显示和亮度</string>
+
+    <string name="string8">声音和震动</string>
+    <string name="string9">通知</string>
+
+    <string name="string10">生物识别和密码</string>
+    <string name="string11">应用和服务</string>
+    <string name="string12">电池</string>
+    <string name="string13">关于手机</string>
+
+    <string name="string14">健康使用手机</string>
+
+    <string name="string15">辅助功能</string>
+    <string name="string16">智慧助手</string>
+    <string name="string17">退出</string>
+</resources>

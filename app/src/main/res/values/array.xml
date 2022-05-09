@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>郭峰1</item>
+        <item>郭峰2</item>
+        <item>郭峰3</item>
+        <item>郭峰4</item>
+        <item>郭峰5</item>
+    </string-array>
+</resources>
