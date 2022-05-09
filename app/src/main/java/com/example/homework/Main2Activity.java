@@ -68,7 +68,10 @@ public class Main2Activity extends AppCompatActivity {
                         startActivity(intent4);
                         break;
                     case 4:
-
+                        String result5 = adapterView.getItemAtPosition(position).toString().substring(2,3);
+                        Toast.makeText(Main2Activity.this,"您选择了第"+result5+"项",Toast.LENGTH_SHORT).show();
+                        Intent intent5 = new Intent(Main2Activity.this, Button5Activity.class);
+                        startActivity(intent5);
                         break;
                     default:
                         break;

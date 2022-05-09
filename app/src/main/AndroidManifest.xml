@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:authorities="com.example.homework.button5.billProvider"
+            android:name="com.example.homework.button5.BillProvider"
+            android:exported="true"/>
     </application>
 
 </manifest>
