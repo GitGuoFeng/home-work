@@ -16,6 +16,7 @@ import com.example.homework.button3.Button3Activity;
 import com.example.homework.button3.SerializableObject;
 import com.example.homework.button4.Button4Activity;
 import com.example.homework.button5.Button5Activity;
+import com.example.homework.button6.Button6Activity;
 
 import static com.example.homework.R.array.ctype;
 
@@ -72,6 +73,12 @@ public class Main2Activity extends AppCompatActivity {
                         Toast.makeText(Main2Activity.this,"您选择了第"+result5+"项",Toast.LENGTH_SHORT).show();
                         Intent intent5 = new Intent(Main2Activity.this, Button5Activity.class);
                         startActivity(intent5);
+                        break;
+                    case 5:
+                        String result6 = adapterView.getItemAtPosition(position).toString().substring(2,3);
+                        Toast.makeText(Main2Activity.this,"您选择了第"+result6+"项",Toast.LENGTH_SHORT).show();
+                        Intent intent6 = new Intent(Main2Activity.this, Button6Activity.class);
+                        startActivity(intent6);
                         break;
                     default:
                         break;
