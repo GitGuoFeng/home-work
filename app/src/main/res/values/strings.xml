@@ -22,4 +22,10 @@
     <string name="string15">辅助功能</string>
     <string name="string16">智慧助手</string>
     <string name="string17">退出</string>
+
+    <string name="current_memory">100G</string>
+    <string name="max">最大内存：</string>
+    <string name="all">总内存为：</string>
+    <string name="dangqianneicun">当前内存为</string>
+    <string name="residue">剩余内存为：</string>
 </resources>

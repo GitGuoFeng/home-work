@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".button8.Button8Activity"/>
         <activity android:name=".button7.Button7Activity"/>
         <activity android:name=".button6.Button6Activity"/>
         <activity android:name=".button5.Button5Activity"/>
